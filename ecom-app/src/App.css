@@ -1,0 +1,42 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.header {
+  padding-top: 10px;
+  height: 30px;
+  display: block;
+  background-color: red;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.link {
+  /* background-color: red; */
+  padding: 20px;
+}
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 25px;
+}
+.product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  /* height: 500px; */
+  border: 1px solid black;
+  margin: 15px;
+}
+.product-img {
+  width: 100%;
+}
+h3 {
+}
